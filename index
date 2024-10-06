@@ -5,19 +5,19 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no,address=no,email=no">
-	<title>企業理念 ｜ ミシン専門店 ｜ ミシンのオズ ｜ 西日本ミシン販売</title>
+	<title>星星星</title>
 <!-- meta -->
-	<meta name="keywords" content="ミシン,通信販売,通販,ミシンのオズ,西日本ミシン販売,西日本ミシン,OZU" />
-	<meta name="description" content="西日本ミシン販売株式会社の企業情報を紹介します。" />
+	<meta name="keywords" content="星星星" />
+	<meta name="description" content="星星星。" />
 <!-- ogp -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="ミシンのオズ ｜ 西日本ミシン販売" />
-	<meta property="og:description" content="西日本ミシン販売株式会社の企業情報を紹介します。" />
-	<meta property="og:site_name" content="ミシンのオズ ｜ 西日本ミシン販売" />
+	<meta property="og:title" content="星星" />
+	<meta property="og:description" content="星星星" />
+	<meta property="og:site_name" content="星星星" />
 <!-- twittercard -->
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="ミシンのオズ ｜ 西日本ミシン販売" />
-	<meta name="twitter:description" content="西日本ミシン販売株式会社の企業情報を紹介します。" />
+	<meta name="twitter:title" content="星星星" />
+	<meta name="twitter:description" content="星星星星" />
 	<link rel="icon" href="/cmn/img/favicon.ico">
 <!--cmn css-->
 	<link rel="stylesheet" href="/cmn/css/set.css">
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
 							    <a id="vision"></a>
                             <div class="Mda_ctr"><h3 class="jmd">社員が誇れる企業を目指します</h3></div>
                              <p class="fB">
-                            ミシンをなりわいとしていることを常に忘れず、ミシンは大切に取り扱う。道徳を基盤とし、数字には厳しく、仕事は楽しく。力を合わせ、働くことの喜びや自己成長を感じられる企業。そして、社員はお互いを大切に思いやり、やる気に満ち溢れ、気迫があり、安心して働ける。そのような仲間と一緒に誇り合える企業を目指します。
+                            仕事は楽しく。力を合わせ、働くことの喜びや自己成長を感じられる企業。そして、社員はお互いを大切に思いやり、やる気に満ち溢れ、気迫があり、安心して働ける。そのような仲間と一緒に誇り合える企業を目指します。
 						     </p>
 					       </div>
 				         </div>
@@ -162,9 +162,9 @@ document.addEventListener('DOMContentLoaded', function () {
 					  <div class="TxtSps"> 
                         <div class="slant-bg">
 							 <a id="value"></a>
-                             <div class="Mda_ctr"><h3 class="jmd">ミシンの魅力を広めていきます</h3></div>
+                             <div class="Mda_ctr"><h3 class="jmd">魅力を広めていきます</h3></div>
                              <p class="fB">
-                            お客様のニーズや時代のトレンドに的確に対応し、安心と感動を与える商品と良質のサービスをご提供します。ミシン専門店として存在価値のある、お客様から必要とされる企業であり続けます。
+                            お客様のニーズや時代のトレンドに的確に対応し、安心と感動を与える商品と良質のサービスをご提供します。
                              </p>
                         </div>
 					　　</div>
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
 							  <a id="sprit"></a>
                              <div class="Mda_ctr"><h3 class="jmd">関わる全てに感謝を伝えます</h3></div>
                              <p class="fB">
-                            感謝の心。感謝をする。感謝される。常に思いやりと感謝の気持ちを持ち、素直な心で、ごまかしのない企業活動を実践していきます。全ての人とのご縁を大切にし、相手に敬意をはらい言葉で感謝を伝えます。
+                           ごまかしのない企業活動を実践していきます。全ての人とのご縁を大切にし、相手に敬意をはらい言葉で感謝を伝えます。
                              </p>
                         </div>
 					   </div> 
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function () {
 							<a id="mission"></a>
                              <div class="Mda_ctr"><h3 class="jmd">変化を恐れず挑戦し続ける</h3></div>
                              <p class="fB">
-                            すぐやる。必ずやる。出来るまでやる。臆さずに試してみて失敗を犯しても、そこから学習を重ね、解決策を考え成長する。そして、商売に繋げる。ミシンのオズは仕入先様、取引先様と緊密に連携、協力し合いながら、ミシン業界を活性化していきます。
+                            すぐやる。必ずやる。出来るまでやる。臆さずに試してみて失敗を犯しても、そこから学習を重ね、解決策を考え成長する。
                              </p>
                         </div> 
                        </div> 
