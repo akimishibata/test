@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	CSS Document
+	file name : uniq.css
+ 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+.tkryi{
+	color:#e60012;
+	font-weight:bold;
+	font-size:2.6rem;
+	margin-bottom:20px;
+}
+
+
+.pdgbtm{
+	padding-bottom: 50px;
+}
+
+.mvWrap .mvBg{
+	background:url(../images/vs01.jpg) no-repeat center center;
+	
+}
+
+/*clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%) x,y指定*/
+
+#sec01 .bg{
+	background:linear-gradient(90deg, #708090, transparent),url("../images/vj03-2.jpg") no-repeat;
+	width: auto;
+	height: 100%;
+	object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)
+	opacity: 0;  /* デフォルトで非表示 */
+    transition: opacity 1s ease-in-out, background-image 3s ease-in-out;
+}
+#sec01 .bg.active {
+	 opacity: 6;
+    /* 追加: 背景画像のトランジション */
+}
+
+
+.small {
+  animation: parallax-small-anim linear;
+  animation-timeline: scroll();
+}
+.font{
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+	font-size: 3.7rem;
+}
+
+
+.Mda_ctr{
+	padding-left: 5%;
+}
+
+
+p .fB{
+	position: absolute;
+}
+
+.ttl{
+	font-size: 4rem;
+}
+#contents .fB.big{
+	font-size:2.8rem;
+}
+#contents .fB.big span{
+	color:#e60012;
+	font-weight:bold
+}
+
+
+#history #contents th .data{
+	width:160px;
+}
+#history #contents th .month{
+	width:90px;
+}
+#history #contents th .day {
+	margin-top:-17px;
+}
+#history #contents th .day span{
+	font-size:3.2rem;
+	width:50px;
+	font-style:italic;
+	margin-right:4px;
+	font-weight:normal;
+}
+
+.p-index-philosophy__circle {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	border: 1px solid hsla(0,0%,100%,.4);
+	border-radius: 50%;
+	color: #fff;
+	transition: all .4s cubic-bezier(.165,.84,.44,1);
+	transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+a:link{
+	color: #FFFFFF;
+}
+
+.p-index-philosophy__body {
+	display: flex;
+	justify-content: center;
+}
+
+.p-index-philosophy__body 
+.p-index-philosophy__circle:active, 
+.p-index-philosophy__circle:hover {
+	background: #fff;
+	color: #FF0004;
+	text-decoration: none;
+}
+.p-index-philosophy__class{
+    font-family: Georgia, "Times New Roman", Times, "serif";
+    font-size: 200%;
+}
+.p-index-philosophy__subject{
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
+    font-size: 80%;
+        
+}
+.fB{
+    border-bottom: 20%;
+}
+.slant-bg{
+    padding-bottom: 8%;
+}
+.phsp{
+    text-align: center;
+    height: 500px;
+    
+}
+.p-index-philosophy__heading-en {
+	padding-top: 6%;
+}
+.js-scroll-to-top{
+	padding-bottom: 8%;
+}
+
+.pading{
+padding: 0 150px;
+}
+
+
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	SP
+	
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+@media  (max-width: 1600px){
+
+.pading{
+width: 100%;
+max-width: 100%;
+min-width: 100%;		
+padding: 10%;
+
+}
+
+.Mda_ctr{
+padding: 3% 3% 3% 3%;
+ }
+.TxtSps{
+	width: 120%;
+	}	
+
+	
+	
+}
+
+
+
+@media screen and (max-width : 1027px ){
+	
+	#contents #sec01 .bg{
+		padding:140px 0;
+}	
+	#history #contents th .data{
+		width:100px;
+}
+	#history #contents th .month{
+		width:100%;
+}
+	#contents .fB.big br{
+		display:block !important;
+}
+	
+	.Mda_ctr{
+		padding: 3% 3% 3% 3%;
+	}
+	
+}
+
+@media (max-width: 790px) {
+figure img .box{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}	
+	
+.tkryi{
+	font-size: 2rem;
+	text-align: center;
+	}
+.p-index-philosophy__circle{
+	background-color: aliceblue;
+	}
+a:link{
+		color: #CA0003;
+	}
+.TxtSps{
+	text-align: center;	
+	}
+	
+	
+}
+
+
+
+@media (max-width: 640px){
+.p-index-philosophy__circle {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 150px;
+	border: 1px solid hsla(0,0%,100%,.4);
+	border-radius: 50%;
+	color: #fff;
+	transition: all .4s cubic-bezier(.165,.84,.44,1);
+	transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+a:link{
+		color: #CA0003;
+	}
+	
+.img-01{
+    margin-left: auto;
+    margin-right: auto;		
+	}
+.slant-bg {
+	text-align: center;
+	}
+
+
+}
+	
+
+@media (max-width: 575px) {
+
+
+.p-index-philosophy__heading-en {
+	padding-top: 20%;	
+	}	
+	
+.p-index-philosophy__body .p-index-philosophy__circle {
+    flex: 0 0 100%;
+    max-width: 200px;
+    height: 200px;
+  }
+	
+.p-index-philosophy__circle{
+	background-color: aliceblue;
+	}
+	
+.Mda_ctr{
+	padding: 3% 3% 3% 3%;
+	text-align: center;    
+}
+.p-index-philosophy__circle {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	height: 90px;
+	border: 1px solid hsla(0,0%,100%,.4);
+	border-radius: 50%;
+	color: #fff;
+	transition: all .4s cubic-bezier(.165,.84,.44,1);
+	transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+a:link{
+		color: #CA0003;
+	}
+.p-index-philosophy__body {
+    flex-wrap: wrap;
+  }	
+#contents #sec01 .bg {
+height: 1500px;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+} 
+.font{
+	font-size: 2rem;
+}
+.tkryi{ 
+	text-align: center;
+	font-size: 1.5rem;
+	}
+.img-01{
+margin-left: auto;
+margin-right: auto;		
+	}
+.pading {
+padding: 0 30px;
+	}
+
+p {
+padding: 0 40px;
+	}
+}
+/* スマホ */
+	
+@media (max-width: 430px) {
+#contents #sec01 .bg {
+height: 1100px;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+}
+ 
+.Mda_ctr{
+margin-left: auto;:[]
+margin-right: auto;
+font-size: 2rem;
+}
+.img-01{
+margin-left: auto;
+margin-right: auto;		
+	}
+.TxtSps{
+width: 100%;
+	}
+.tkryi{
+	font-size: 1.5rem;
+	}
+}
+	@media (max-width: 400px) {
+#contents #sec01 .bg {
+height: 1450px;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+}
+.jmd{
+	font-size: 1rem;
+		}
+a:link{
+		color: #CA0003;
+	}
+
+}
