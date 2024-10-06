@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<title>企業理念 ｜ ミシン専門店 ｜ ミシンのオズ ｜ 西日本ミシン販売</title>
+<!-- meta -->
+	<meta name="keywords" content="ミシン,通信販売,通販,ミシンのオズ,西日本ミシン販売,西日本ミシン,OZU" />
+	<meta name="description" content="西日本ミシン販売株式会社の企業情報を紹介します。" />
+<!-- ogp -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="ミシンのオズ ｜ 西日本ミシン販売" />
+	<meta property="og:description" content="西日本ミシン販売株式会社の企業情報を紹介します。" />
+	<meta property="og:site_name" content="ミシンのオズ ｜ 西日本ミシン販売" />
+<!-- twittercard -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="ミシンのオズ ｜ 西日本ミシン販売" />
+	<meta name="twitter:description" content="西日本ミシン販売株式会社の企業情報を紹介します。" />
+	<link rel="icon" href="/cmn/img/favicon.ico">
 <!--cmn css-->
 	<link rel="stylesheet" href="/cmn/css/set.css">
 	
@@ -26,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // 初期表示をしっかり表示するために、まず active クラスを付与
     bgElement.classList.add('active');
-    setInterval(changeBackground, 3000);  // 3000ミリ秒ごとに画像を切り替え
+    setInterval(changeBackground, 4000);  // 4000ミリ秒ごとに画像を切り替え
 });
 </script>
 
@@ -87,3 +108,128 @@ document.addEventListener('DOMContentLoaded', function () {
 				         <p class="fB">お客様の生活をより「豊か」に「楽しく」「便利」に。<br>時代は変わっても、時間をかけて作った物には愛着があり、<br>温もりもあります。ミシンを通じて「縫う」という営みを<br>もっと身近な文化として社会に貢献していきます。
 					     </p>
 					</div>
+					
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="phsp">
+                <h3 class="p-index-philosophy__heading c-section-title">
+                    <div class="p-index-philosophy__heading-en c-section-title__en -visible" data-scroll-trigger="js-scroll-to-top" font-size="5">Philosophy</div>
+                <div class="p-index-philosophy__heading-ja c-section-title__ja -visible" data-scroll-trigger="js-scroll-to-top">経営理念</div></h3>
+            <div class="p-index-philosophy__body"> 
+                <a href="#vision" class="p-index-philosophy__circle">
+                <div class="--circle--inner">
+                    <div class="p-index-philosophy__class"><span>Vision</span></div><div class="p-index-philosophy__subject"><span>社員が誇れる企業になる</span></div></div> </a> 
+                <a href="#value" class="p-index-philosophy__circle">
+                    <div class="--circle--inner">
+                        <div class="p-index-philosophy__class"><span>Value</span></div>
+                        <div class="p-index-philosophy__subject"><span>ミシンの魅力を広める</span></div></div> </a>
+                <a href="#sprit" class="p-index-philosophy__circle">
+                    <div class="--circle--inner">
+                        <div class="p-index-philosophy__class"><span>Spirit</span></div><div class="p-index-philosophy__subject"><span>関わる全てに感謝を伝える</span></div></div> </a>
+                <a href="#mission" class="p-index-philosophy__circle">
+                <div class="--circle--inner">
+                    <div class="p-index-philosophy__class"><span>Mission</span></div><div class="p-index-philosophy__subject"><span>変化を恐れず挑戦する</span></div></div> </a></div></div>
+        </div>         
+			
+            </div>
+            </div>   
+            
+		</section>
+		<!--//section-->
+  
+		<section class="block">
+			 <div class="pading">
+				
+			
+                    
+                   <div class="box flex fl hc"> 
+					   <div class="img-01"><img src="images/vision01.png" alt="つくるよろこび"></div>
+					    <div class="sTxtWrap qswow" data-qw-duration="1" data-qw-delay="0" data-qw-type="fadeIn">
+						 <div class="TxtSps">
+                           <div class="slant-bg">
+							    <a id="vision"></a>
+                            <div class="Mda_ctr"><h3 class="jmd">社員が誇れる企業を目指します</h3></div>
+                             <p class="fB">
+                            ミシンをなりわいとしていることを常に忘れず、ミシンは大切に取り扱う。道徳を基盤とし、数字には厳しく、仕事は楽しく。力を合わせ、働くことの喜びや自己成長を感じられる企業。そして、社員はお互いを大切に思いやり、やる気に満ち溢れ、気迫があり、安心して働ける。そのような仲間と一緒に誇り合える企業を目指します。
+						     </p>
+					       </div>
+				         </div>
+					    </div>
+                       </div> 
+			　　　　<div class="box flex fl hc"> 
+					<div class="img-01"><img src="images/value02.png" alt="つくるよろこび"></div>
+					 <div class="sTxtWrap qswow" data-qw-duration="1" data-qw-delay="0" data-qw-type="fadeIn">
+					  <div class="TxtSps"> 
+                        <div class="slant-bg">
+							 <a id="value"></a>
+                             <div class="Mda_ctr"><h3 class="jmd">ミシンの魅力を広めていきます</h3></div>
+                             <p class="fB">
+                            お客様のニーズや時代のトレンドに的確に対応し、安心と感動を与える商品と良質のサービスをご提供します。ミシン専門店として存在価値のある、お客様から必要とされる企業であり続けます。
+                             </p>
+                        </div>
+					　　</div>
+					   </div>
+					  </div>
+			　　　　<div class="box flex fl hc">
+					<div class="img-01"><img src="images/Spirit03.png" alt="つくるよろこび"></div>
+					  <div class="sTxtWrap qswow" data-qw-duration="1" data-qw-delay="0" data-qw-type="fadeIn">
+					   <div class="TxtSps">
+                         <div class="slant-bg">
+							  <a id="sprit"></a>
+                             <div class="Mda_ctr"><h3 class="jmd">関わる全てに感謝を伝えます</h3></div>
+                             <p class="fB">
+                            感謝の心。感謝をする。感謝される。常に思いやりと感謝の気持ちを持ち、素直な心で、ごまかしのない企業活動を実践していきます。全ての人とのご縁を大切にし、相手に敬意をはらい言葉で感謝を伝えます。
+                             </p>
+                        </div>
+					   </div> 
+		         	</div>
+				    </div>	
+			       <div class="box flex fl hc">
+					   <div class="img-01"><img src="images/mission04.png" alt="つくるよろこび"></div>
+					  <div class="sTxtWrap qswow" data-qw-duration="1" data-qw-delay="0" data-qw-type="fadeIn">
+					   <div class="TxtSps">
+                        <div class="slant-bg">
+							<a id="mission"></a>
+                             <div class="Mda_ctr"><h3 class="jmd">変化を恐れず挑戦し続ける</h3></div>
+                             <p class="fB">
+                            すぐやる。必ずやる。出来るまでやる。臆さずに試してみて失敗を犯しても、そこから学習を重ね、解決策を考え成長する。そして、商売に繋げる。ミシンのオズは仕入先様、取引先様と緊密に連携、協力し合いながら、ミシン業界を活性化していきます。
+                             </p>
+                        </div> 
+                       </div> 
+					  </div> 
+                    </div>    
+			</article>
+         </div>
+		</div>
+		</section>
+       
+		
+	
+	<!--▲contents▲-->
+	
+ 	<?php require_once('../cmn/include/footer.html'); ?>
+	<!--▲footer▲-->
+
+
+<!--cmn js-->
+    <script src="/cmn/js/import.js"></script>
+<!--js-->
+   
+　　
+	<script>$(function () {
+	  var w = $(window).width();
+	  if (w > 960) {
+		$(".parallax").paroller({
+			factor: 0.4,
+			transition: 'transform 0.6s ease-in'
+		});
+	  }
+	});
+		</script>
+	
+<!--[if lt IE 9]>
+	<script src="/cmn/js/html5shiv.js"></script>
+	<script src="/cmn/js/respond.js"></script>
+	<![endif]-->
+</body>
+</html>
