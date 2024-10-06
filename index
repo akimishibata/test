@@ -1,0 +1,89 @@
+<!--cmn css-->
+	<link rel="stylesheet" href="/cmn/css/set.css">
+	
+<!--css-->
+	<link rel="stylesheet" href="css/uniq.css">
+	<script src="/cmn/js/googleanalytics.js"></script>
+	
+	<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var images = [
+        './images/vj03-2.jpg',
+        './images/vj03-1.jpg', 
+    ];
+    var currentIndex = 0;
+    var bgElement = document.querySelector('#sec01 .bg');
+
+    function changeBackground() {
+        bgElement.classList.remove('active');
+        
+        setTimeout(function() {
+            currentIndex = (currentIndex + 1) % images.length;
+            bgElement.style.backgroundImage = `linear-gradient(90deg, #708090, transparent),url(${images[currentIndex]})`;
+            bgElement.classList.add('active');
+        }, 500);  // CSS transition と併せて少し間を空けてから active クラスを付与
+    }
+    
+    // 初期表示をしっかり表示するために、まず active クラスを付与
+    bgElement.classList.add('active');
+    setInterval(changeBackground, 3000);  // 3000ミリ秒ごとに画像を切り替え
+});
+</script>
+
+	
+	
+</head>
+
+<body>
+
+ 	<?php require_once('../cmn/include/header.html'); ?>
+ 	<?php require_once('../cmn/include/loader.html'); ?>
+	<!--▲header▲-->
+	
+	
+	
+	<section class="mvWrap">
+		<div class="mvBg"></div>
+		<div id="topicpath">
+			<ul>
+				<li><a href="/">ホーム</a></li>
+				<li>企業理念</li>
+			</ul>
+		</div>
+		<h2 class="ttl">PHILOSOPHY<span>企業理念</span></h2>
+	</section>
+	<!--▲mvWrap▲-->
+	<article id="contents">		
+		<section class="block">
+		   <div class="pdgbtm">
+			<div class="w1400">
+ 
+                  <div class="box flex f1">
+					<div class="sPhWrap qswow" data-qw-duration="1" data-qw-delay="0" data-qw-type="fadeIn">
+						<figure class="box"><img src="images/vs02.jpg" alt="つくるよろこび"></figure>
+					</div>
+        
+					<div class="sTxtWrap qswow" data-qw-type="fadeIn" >
+						<h3 class="tkryi">「つくるよろこび　みつける　ひろげる」</h3>
+						<p class="fB">一枚の布から様々なものを生み出せる。<br>既存の物を新に生まれ変わらせる。<br>そんなミシンさながらの挑戦を続けていきます。</p>
+					</div>
+　　　              </div>
+            </div>
+		   </div>
+		</section>
+		<!--//section-->
+		
+	</article>
+     
+	<article id="contents">
+		<section class="block" id="sec01">		
+			<div class="bg parallax">
+                <div class="box fl">
+                   <div class="qswow" data-qw-duration="1" data-qw-delay="0" data-qw-type="fadeIn">			    
+					<h3 class="md">
+						<div class="font">「私たち全員」は、「誠実」であります</h3></div>
+                  
+                    	   
+				         <p class="fB">お客様の生活をより「豊か」に「楽しく」「便利」に。<br>時代は変わっても、時間をかけて作った物には愛着があり、<br>温もりもあります。ミシンを通じて「縫う」という営みを<br>もっと身近な文化として社会に貢献していきます。
+					     </p>
+					</div>
